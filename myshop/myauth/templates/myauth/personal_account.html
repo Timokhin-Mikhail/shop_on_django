@@ -1,0 +1,75 @@
+{% extends 'myauth/base.html' %}
+{% load i18n %}
+{%  load cache %}
+{% block title %}
+  {% trans 'Personal account ' %}{{ object.username }}
+{% endblock %}
+
+
+{% block body %}
+<style type="text/css">
+del {
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
+</style>
+  <h1>{{ object.username }} info</h1>
+    <h2>{% trans 'Detail' %} {{ request.user.username }}</h2>
+    <p>{% trans 'Username:' %} {{ object.username }}</p>
+    <p>{% trans 'First name:' %}
+        {% if object.first_name %}
+            {{ object.first_name }}
+        {% else %}
+            <span style="color: red">{% trans 'First name not installed' %}</span>
+        {% endif %}
+    </p>
+    <p>{% trans 'Status' %}: {{ object.profile.status }}</p>
+    <p>{% trans 'Balance' %}: {{ object.profile.balance }}</p>
+    <p>{% trans 'Purchase amount' %}: {{ object.profile.purchase_amount }}</p>
+
+    <div>
+    <a href="{% url "myauth:up_balance" username=object.username %}">{% trans 'Top up your balance' %}</a>
+    </div>
+    <div></div>
+    <div>
+    <a href="{% url 'shopapp:products_list' %}">{% trans 'Go to products list' %}</a>
+    </div>
+    {% if promotions %}
+        <h3>{% trans 'Promotions' %}:</h3>
+        {%  for promotion in promotions %}
+        <p>Code: "{{ promotion.code }}" ({{ promotion.short_description }})</p>
+        {% endfor %}
+    {% endif %}
+
+    {% if offers %}
+        <h3>{% trans 'Offers' %}:</h3>
+        {%  for product in offers %}
+        <p>{{ product.name }}, Price: <del>{{ product.price }}</del> {{ product.new_price }}</p>
+        <p>
+        <form method="post">
+          {% csrf_token %}
+          <input type="hidden" name="pk" value={{ product.pk }}>
+          <button type="submit">{% trans 'Add in Basket' %}</button>
+        </form>
+        </p>
+        {% endfor %}
+    {% endif %}
+    {% cache 300 user_orders %}
+    <h3>{% trans 'My orders' %}</h3>
+    {% if object.orders.all %}
+        {% for order in object.orders.all %}
+            <p>{% trans 'Order from' %} {{ order.created_at }}</p>
+            {% for product in order.products.all  %}
+                <p>{{ product.name }}{% trans ', price: ' %}{{ product.price }} </p>
+
+            {% endfor %}
+
+        {% endfor %}
+
+    {% else %}
+        {% trans "You haven't placed any orders yet" %}
+    {%  endif %}
+    {% endcache %}
+
+
+{% endblock %}

@@ -1,0 +1,5449 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Зеленые яблоки",
+      "description": "Сочные яблочки",
+      "price": "100.00",
+      "discount": 0,
+      "created_at": "2023-03-02T22:48:55Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Красные яблочки",
+      "description": "Такие же как зеленые, но красные",
+      "price": "200.00",
+      "discount": 0,
+      "created_at": "2023-03-02T22:48:55Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Апельсин",
+      "description": "Апельсин (не яблоко)",
+      "price": "150.00",
+      "discount": 0,
+      "created_at": "2023-03-02T22:49:23Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "Айс Ти «Инжирный персик»",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.308Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "Айс Ти «Черничный Прованс» ",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.325Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 6,
+    "fields": {
+      "name": "Айс Ти «Сочное манго»",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.342Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "Айс Ти «Клубничный зефир»",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.355Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 8,
+    "fields": {
+      "name": "Айс Ти «Апельсиновый лед»",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.367Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Айс Ти «Карамельное яблоко»",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.384Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 10,
+    "fields": {
+      "name": "Мао Се",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.399Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 11,
+    "fields": {
+      "name": "Бай Ча Цзингу ",
+      "description": "",
+      "price": "747.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.410Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 12,
+    "fields": {
+      "name": "Моя Москва",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.431Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 13,
+    "fields": {
+      "name": "Ягодная сангрия ",
+      "description": "",
+      "price": "757.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.468Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 14,
+    "fields": {
+      "name": "Леди Грей",
+      "description": "",
+      "price": "487.00",
+      "discount": 10,
+      "created_at": "2023-03-06T11:10:04.482Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 15,
+    "fields": {
+      "name": "Жемчужина Азии",
+      "description": "",
+      "price": "757.00",
+      "discount": 5,
+      "created_at": "2023-03-06T11:10:04.506Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 16,
+    "fields": {
+      "name": "Королевский гибискус (каркаде)",
+      "description": "",
+      "price": "197.00",
+      "discount": 15,
+      "created_at": "2023-03-06T11:10:04.517Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 17,
+    "fields": {
+      "name": "Гейша",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.584Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 18,
+    "fields": {
+      "name": "Надежда Маргарет",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.618Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 19,
+    "fields": {
+      "name": "Однажды в Вегасе",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.655Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 20,
+    "fields": {
+      "name": "Японская липа",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.667Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 21,
+    "fields": {
+      "name": "Айсберг",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.685Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 22,
+    "fields": {
+      "name": "Цветки кактуса",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.703Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 23,
+    "fields": {
+      "name": "Чай для дачи",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.715Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 24,
+    "fields": {
+      "name": " Арахисовая паста",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.728Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 25,
+    "fields": {
+      "name": "Вишня в шоколаде",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.783Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 26,
+    "fields": {
+      "name": "Иммуно-баланс ",
+      "description": "",
+      "price": "757.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.832Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 27,
+    "fields": {
+      "name": "Французская пекарня ",
+      "description": "",
+      "price": "757.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.847Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 28,
+    "fields": {
+      "name": "Индия Нилгири",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.861Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 29,
+    "fields": {
+      "name": "Экзотика",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.875Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 30,
+    "fields": {
+      "name": "Китайская Сенча",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.887Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 31,
+    "fields": {
+      "name": "Мелисса-Имбирь ",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.898Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 32,
+    "fields": {
+      "name": "Тропическое Соло",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.908Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 33,
+    "fields": {
+      "name": "Цитрусовый базилик",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.918Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 34,
+    "fields": {
+      "name": "Клубника-Моринга ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.935Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 35,
+    "fields": {
+      "name": "Сокровище Индии ",
+      "description": "",
+      "price": "757.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.945Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 36,
+    "fields": {
+      "name": "Фитнес-тайм",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.956Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 37,
+    "fields": {
+      "name": "Марципан",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.965Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 38,
+    "fields": {
+      "name": "Пуэр туо-ча",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.976Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 39,
+    "fields": {
+      "name": "Маленький принц  ",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.988Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 40,
+    "fields": {
+      "name": "Молодой пуэр",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:04.998Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 41,
+    "fields": {
+      "name": "Классический пуэр",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.008Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 42,
+    "fields": {
+      "name": "Пуэр с молоком",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.019Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 43,
+    "fields": {
+      "name": "Мандариновый пуэр",
+      "description": "",
+      "price": "987.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.029Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 44,
+    "fields": {
+      "name": "Мелодия Прованса",
+      "description": "",
+      "price": "387.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.039Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 45,
+    "fields": {
+      "name": "Мамин чай",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.051Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 46,
+    "fields": {
+      "name": "Персидский чародей",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.061Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 47,
+    "fields": {
+      "name": "Восемь сокровищ Шаолиня",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.072Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 48,
+    "fields": {
+      "name": "Таежный черный",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.084Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 49,
+    "fields": {
+      "name": "Ассам «Кумсонг»",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.093Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 50,
+    "fields": {
+      "name": "Вишневый йогурт",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.103Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 51,
+    "fields": {
+      "name": "Восход",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.116Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 52,
+    "fields": {
+      "name": "Грецкий орех зеленый",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.127Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 53,
+    "fields": {
+      "name": "Груша с гранатом",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.139Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 54,
+    "fields": {
+      "name": "Дарджилинг Джиэль",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.150Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 55,
+    "fields": {
+      "name": "Золотой Непал (Лапсанг Сушонг)",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.162Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 56,
+    "fields": {
+      "name": "Имбирный лимонад",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.173Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 57,
+    "fields": {
+      "name": "Какао-Трюфель",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.185Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 58,
+    "fields": {
+      "name": "Китайская мята",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.196Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 59,
+    "fields": {
+      "name": "Мечты китайского любовника",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.210Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 60,
+    "fields": {
+      "name": "Королевские сливки",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.223Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 61,
+    "fields": {
+      "name": "Малиновый Мохито",
+      "description": "",
+      "price": "367.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.235Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 62,
+    "fields": {
+      "name": "Праздничный",
+      "description": "",
+      "price": "439.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.247Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 63,
+    "fields": {
+      "name": "Черная смородина",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.258Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 64,
+    "fields": {
+      "name": "Ройбос (ройбуш) Длинная иголка",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.269Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 65,
+    "fields": {
+      "name": "Медовый глинтвейн",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.281Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 66,
+    "fields": {
+      "name": "Чай для друга",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.291Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 67,
+    "fields": {
+      "name": "Белая обезьяна EU",
+      "description": "",
+      "price": "897.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.302Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 68,
+    "fields": {
+      "name": "Любимому учителю ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.313Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 69,
+    "fields": {
+      "name": "Царский чай",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.326Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 70,
+    "fields": {
+      "name": "Цветы лавандовых полей",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.337Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 71,
+    "fields": {
+      "name": "Все девушки любят малину",
+      "description": "",
+      "price": "387.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.347Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 72,
+    "fields": {
+      "name": "Королевский Эрл Грей",
+      "description": "",
+      "price": "537.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.362Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 73,
+    "fields": {
+      "name": "Пу Эр зеленое гнездо ",
+      "description": "",
+      "price": "677.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.374Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 74,
+    "fields": {
+      "name": "Роза Венеции",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.385Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 75,
+    "fields": {
+      "name": "Оолонг с Гуй Хуа",
+      "description": "",
+      "price": "787.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.398Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 76,
+    "fields": {
+      "name": "Масала",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.409Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 77,
+    "fields": {
+      "name": "Для нее",
+      "description": "",
+      "price": "387.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.422Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 78,
+    "fields": {
+      "name": "Алоэ Вера",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.434Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 79,
+    "fields": {
+      "name": "Карамельный улун",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.446Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 80,
+    "fields": {
+      "name": "Улун с розой",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.457Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 81,
+    "fields": {
+      "name": "Золотые спирали",
+      "description": "",
+      "price": "447.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.470Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 82,
+    "fields": {
+      "name": "Клюква с персиком",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.480Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 83,
+    "fields": {
+      "name": "Шоколадный пудинг",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.491Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 84,
+    "fields": {
+      "name": "Груша в карамели",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.503Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 85,
+    "fields": {
+      "name": "Огни ночного города",
+      "description": "",
+      "price": "387.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.514Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 86,
+    "fields": {
+      "name": "Апельсин и мята",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.526Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 87,
+    "fields": {
+      "name": "Черничный морс",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.539Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 88,
+    "fields": {
+      "name": "Сердце Африки",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.549Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 89,
+    "fields": {
+      "name": "Сладкий вечер",
+      "description": "",
+      "price": "347.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.563Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 90,
+    "fields": {
+      "name": "Серебряная жемчужина скрученный",
+      "description": "",
+      "price": "987.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.573Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 91,
+    "fields": {
+      "name": "Клубничные сливки",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.584Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 92,
+    "fields": {
+      "name": "Сырный сомелье",
+      "description": "",
+      "price": "757.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.596Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 93,
+    "fields": {
+      "name": "Облепиховый смузи",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.608Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 94,
+    "fields": {
+      "name": "Золотой дракон EU",
+      "description": "",
+      "price": "977.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.618Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 95,
+    "fields": {
+      "name": "Мятный персик",
+      "description": "",
+      "price": "717.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.632Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 96,
+    "fields": {
+      "name": "Фисташковый крем",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.643Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 97,
+    "fields": {
+      "name": "Индийский океан",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.654Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 98,
+    "fields": {
+      "name": "Генманча",
+      "description": "",
+      "price": "681.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.665Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 99,
+    "fields": {
+      "name": "Иван-чай крупнолистовой с медом",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.677Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 100,
+    "fields": {
+      "name": "Лесная сказка",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.688Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 101,
+    "fields": {
+      "name": "Дедушка рекомендует",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.699Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 102,
+    "fields": {
+      "name": "Милима",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.715Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 103,
+    "fields": {
+      "name": "Черный самурай",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.726Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 104,
+    "fields": {
+      "name": "Мятный бриз",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.739Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 105,
+    "fields": {
+      "name": "Амазонка",
+      "description": "",
+      "price": "427.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.762Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 106,
+    "fields": {
+      "name": "Маленькая леди",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.773Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 107,
+    "fields": {
+      "name": "Ягодное лукошко",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.785Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 108,
+    "fields": {
+      "name": "Пряный апельсин",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.796Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 109,
+    "fields": {
+      "name": "Спасибо",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.808Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 110,
+    "fields": {
+      "name": "Яблочный пирог моей бабушки",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.818Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 111,
+    "fields": {
+      "name": "Млечный Путь",
+      "description": "",
+      "price": "987.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.829Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 112,
+    "fields": {
+      "name": "Татарский",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.840Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 113,
+    "fields": {
+      "name": "Грейпфрутовый фреш",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.851Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 114,
+    "fields": {
+      "name": "Арбузная вечеринка",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.862Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 115,
+    "fields": {
+      "name": "Ягодный пай",
+      "description": "",
+      "price": "313.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.872Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 116,
+    "fields": {
+      "name": "Клубника с дыней",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.891Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 117,
+    "fields": {
+      "name": "Жасминовый улун",
+      "description": "",
+      "price": "987.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.901Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 118,
+    "fields": {
+      "name": "Стройность",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.914Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 119,
+    "fields": {
+      "name": "Долголетие",
+      "description": "",
+      "price": "717.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.924Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 120,
+    "fields": {
+      "name": "Цейлонский Шаулэндс",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.934Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 121,
+    "fields": {
+      "name": "Русские традиции",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.944Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 122,
+    "fields": {
+      "name": "Не болей! ",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.956Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 123,
+    "fields": {
+      "name": "Трюфель Чили",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.965Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 124,
+    "fields": {
+      "name": "Коктейль Манго-Маракуйя",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.976Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 125,
+    "fields": {
+      "name": "Липовый цвет",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.987Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 126,
+    "fields": {
+      "name": "Фруктовый зефир",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:05.997Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 127,
+    "fields": {
+      "name": "Джунджак",
+      "description": "",
+      "price": "857.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.006Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 128,
+    "fields": {
+      "name": "Лимонный щербет",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.017Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 129,
+    "fields": {
+      "name": "Английская карамель",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.032Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 130,
+    "fields": {
+      "name": "Миндальный бисквит",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.044Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 131,
+    "fields": {
+      "name": "Лакомка",
+      "description": "",
+      "price": "427.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.056Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 132,
+    "fields": {
+      "name": "Папин чай",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.072Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 133,
+    "fields": {
+      "name": "Абрикосовый улун",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.083Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 134,
+    "fields": {
+      "name": "Манго-Розмарин",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.099Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 135,
+    "fields": {
+      "name": "Пламенный грейпфрут",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.112Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 136,
+    "fields": {
+      "name": "Гармония",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.128Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 137,
+    "fields": {
+      "name": "Белая сакура",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.142Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 138,
+    "fields": {
+      "name": "Малиновый чай",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.152Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 139,
+    "fields": {
+      "name": "Лимонный лёд",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.165Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 140,
+    "fields": {
+      "name": "Дынное мороженое",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.177Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 141,
+    "fields": {
+      "name": "Для него",
+      "description": "",
+      "price": "347.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.189Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 142,
+    "fields": {
+      "name": "Вечная любовь",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.202Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 143,
+    "fields": {
+      "name": "Дикие ягоды",
+      "description": "",
+      "price": "457.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.212Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 144,
+    "fields": {
+      "name": "Золотая обезьяна",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.226Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 145,
+    "fields": {
+      "name": "Рецепт здоровья",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.238Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 146,
+    "fields": {
+      "name": "Инжирное дерево",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.249Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 147,
+    "fields": {
+      "name": "Зизифора",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.267Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 148,
+    "fields": {
+      "name": "Мята",
+      "description": "",
+      "price": "747.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.278Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 149,
+    "fields": {
+      "name": "Волшебный лес",
+      "description": "",
+      "price": "347.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.292Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 150,
+    "fields": {
+      "name": "Душица",
+      "description": "",
+      "price": "747.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.313Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 151,
+    "fields": {
+      "name": "Загадка маленького Будды",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.324Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 152,
+    "fields": {
+      "name": "Вернуться в Сочи",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.335Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 153,
+    "fields": {
+      "name": "Ассам Золотые типсы «Мокалбари»",
+      "description": "",
+      "price": "897.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.346Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 154,
+    "fields": {
+      "name": "Английский завтрак",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.357Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 155,
+    "fields": {
+      "name": "Фаворит ягод",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.367Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 156,
+    "fields": {
+      "name": "Белая обезьяна",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.381Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 157,
+    "fields": {
+      "name": "Дерево жизни",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.392Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 158,
+    "fields": {
+      "name": "Грецкий орех чёрный",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.403Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 159,
+    "fields": {
+      "name": "Жасминовый вечер",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.416Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 160,
+    "fields": {
+      "name": "Чхао Цин ",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.427Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 161,
+    "fields": {
+      "name": "Оолонг Огненный Цветок ",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.439Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 162,
+    "fields": {
+      "name": "Кения «Тиндерет» GFOP",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.453Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 163,
+    "fields": {
+      "name": "Соусеп",
+      "description": "",
+      "price": "387.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.463Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 164,
+    "fields": {
+      "name": "Маршмэллоу",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.475Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 165,
+    "fields": {
+      "name": "Ванильное небо Декаф",
+      "description": "",
+      "price": "997.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.487Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 166,
+    "fields": {
+      "name": "Нежность жасмина",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.497Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 167,
+    "fields": {
+      "name": "Женьшень улун",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.509Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 168,
+    "fields": {
+      "name": "Итальянский пирог",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.520Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 169,
+    "fields": {
+      "name": "Весенний Аромат",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.530Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 170,
+    "fields": {
+      "name": "Клубничный крем",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.542Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 171,
+    "fields": {
+      "name": "Тимьян (Чабрец)",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.553Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 172,
+    "fields": {
+      "name": "Из Петербурга с любовью ",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.563Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 173,
+    "fields": {
+      "name": "Сказочный единорог",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.577Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 174,
+    "fields": {
+      "name": "Аромат путешествий",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.589Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 175,
+    "fields": {
+      "name": " Пока часы 12 бьют ",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.600Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 176,
+    "fields": {
+      "name": "Пакетированный чай «Бай Хоу»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.616Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 177,
+    "fields": {
+      "name": "Пакетированный чай «Английская карамель»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.626Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 178,
+    "fields": {
+      "name": "Пакетированный чай «Огненный цветок»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.643Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 179,
+    "fields": {
+      "name": "Пакетированный чай «Японская липа»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.657Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 180,
+    "fields": {
+      "name": "Пакетированный чай «Цейлонский Шаулендс»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.667Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 181,
+    "fields": {
+      "name": "Пакетированный чай «Королевский Эрл Грей»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.680Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 182,
+    "fields": {
+      "name": "Пакетированный чай «Клубничные сливки»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.691Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 183,
+    "fields": {
+      "name": "Пакетированный чай «Ягодное лукошко»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.704Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 184,
+    "fields": {
+      "name": "Пакетированный чай «Китайская мята»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.715Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 185,
+    "fields": {
+      "name": "Пакетированный чай «Загадка маленького Будды»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.727Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 186,
+    "fields": {
+      "name": "Чайный набор «Дачный сезон»",
+      "description": "",
+      "price": "696.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.739Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 187,
+    "fields": {
+      "name": "Чайный набор «Пряности»",
+      "description": "",
+      "price": "707.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.749Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 188,
+    "fields": {
+      "name": "Чайный набор «Шоколад»",
+      "description": "",
+      "price": "913.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.760Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 189,
+    "fields": {
+      "name": "Белый пух ",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.784Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 190,
+    "fields": {
+      "name": "Белое крыло ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.795Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 191,
+    "fields": {
+      "name": "Ягоды Асаи ",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.806Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 192,
+    "fields": {
+      "name": "Вишневый клафути ",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.816Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 193,
+    "fields": {
+      "name": "Чайный набор «Свежее лето»",
+      "description": "",
+      "price": "800.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.830Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 194,
+    "fields": {
+      "name": "Гранола с чиа",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:06.842Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 195,
+    "fields": {
+      "name": "Бельгийская вафля",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.303Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 196,
+    "fields": {
+      "name": "Клубничный мусс",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.320Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 197,
+    "fields": {
+      "name": "Малиновый пломбир",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.331Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 198,
+    "fields": {
+      "name": "Лавандовый тарт",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.345Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 199,
+    "fields": {
+      "name": "Лемонграсс",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.357Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 200,
+    "fields": {
+      "name": "Итальянская смесь",
+      "description": "",
+      "price": "636.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.369Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 201,
+    "fields": {
+      "name": "Колумбия ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.382Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 202,
+    "fields": {
+      "name": "Эквадор ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.394Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 203,
+    "fields": {
+      "name": "Ил Престо",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.407Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 204,
+    "fields": {
+      "name": "Сливочное печенье",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.420Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 205,
+    "fields": {
+      "name": "Коста Рика Караколи",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.432Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 206,
+    "fields": {
+      "name": "Ирландский крем ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.444Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 207,
+    "fields": {
+      "name": "Яблочный штрудель",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.456Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 208,
+    "fields": {
+      "name": "Кофе для свидания ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.466Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 209,
+    "fields": {
+      "name": "Карамель ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.477Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 210,
+    "fields": {
+      "name": "Эспрессо Королевский",
+      "description": "",
+      "price": "835.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.488Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 211,
+    "fields": {
+      "name": "Ява Арабика Блаван",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.499Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 212,
+    "fields": {
+      "name": "Ирландский крем",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.508Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 213,
+    "fields": {
+      "name": "Кардамон",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.519Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 214,
+    "fields": {
+      "name": "Хаус Бленд",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.536Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 215,
+    "fields": {
+      "name": "Гаванский Ром",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.546Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 216,
+    "fields": {
+      "name": "Кленовый сироп Марагоджип",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.557Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 217,
+    "fields": {
+      "name": "Шоколад",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.569Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 218,
+    "fields": {
+      "name": "Купаж Сантос Бурбон светлой обжарки",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.580Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 219,
+    "fields": {
+      "name": "Карамель",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.591Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 220,
+    "fields": {
+      "name": "Ил Дивино",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.602Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 221,
+    "fields": {
+      "name": "Куба Спешал",
+      "description": "",
+      "price": "558.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.616Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 222,
+    "fields": {
+      "name": "Бразилия ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.629Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 223,
+    "fields": {
+      "name": "Капучино Марагоджип",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.640Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 224,
+    "fields": {
+      "name": "Кофе для свидания Марагоджип",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.650Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 225,
+    "fields": {
+      "name": "Марагоджип Гватемала Аззуро",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.665Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 226,
+    "fields": {
+      "name": "Колумбия Сан Августин",
+      "description": "",
+      "price": "787.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.678Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 227,
+    "fields": {
+      "name": "Перу Органик ",
+      "description": "",
+      "price": "857.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.689Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 228,
+    "fields": {
+      "name": "Амаретто ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.700Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 229,
+    "fields": {
+      "name": "Капучино ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.713Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 230,
+    "fields": {
+      "name": "Амаретто",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.724Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 231,
+    "fields": {
+      "name": "Банан",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.737Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 232,
+    "fields": {
+      "name": "Блю Стар",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.747Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 233,
+    "fields": {
+      "name": "Бразилия Рейнфорест",
+      "description": "",
+      "price": "927.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.758Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 234,
+    "fields": {
+      "name": "Ваниль",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.773Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 235,
+    "fields": {
+      "name": "Гран Мариньен",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.784Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 236,
+    "fields": {
+      "name": "Грецкий орех",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.795Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 237,
+    "fields": {
+      "name": "Ирландский крем Декаф",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.808Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 238,
+    "fields": {
+      "name": "Ирландский крем Марагоджип",
+      "description": "",
+      "price": "529.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.819Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 239,
+    "fields": {
+      "name": "Ирландский крем светлой обжарки",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.829Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 240,
+    "fields": {
+      "name": "Капучино",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.844Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 241,
+    "fields": {
+      "name": "Карамель Марагоджип",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.855Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 242,
+    "fields": {
+      "name": "Кения АА  Кагумоини",
+      "description": "",
+      "price": "787.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.868Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 243,
+    "fields": {
+      "name": "Кленовый сироп",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.884Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 244,
+    "fields": {
+      "name": "Колумбия Медделин Хазьенда Венеция",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.895Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 245,
+    "fields": {
+      "name": "Колумбия Рейнфорест Калачу Сантандер",
+      "description": "",
+      "price": "897.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.906Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 246,
+    "fields": {
+      "name": "Корица",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.919Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 247,
+    "fields": {
+      "name": "Кофе для свидания",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.929Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 248,
+    "fields": {
+      "name": "Кофе для свидания декаф",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.940Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 249,
+    "fields": {
+      "name": "Крем Брюле",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.956Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 250,
+    "fields": {
+      "name": "Лесной Орех",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.967Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 251,
+    "fields": {
+      "name": "Лесной Орех Марагоджип",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.978Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 252,
+    "fields": {
+      "name": "Марагоджип Колумбия",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.987Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 253,
+    "fields": {
+      "name": "Марагоджип Никарагуа",
+      "description": "",
+      "price": "787.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:07.997Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 254,
+    "fields": {
+      "name": "Мокка Де Люкс",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.006Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 255,
+    "fields": {
+      "name": "Мокка Йемен",
+      "description": "",
+      "price": "997.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.019Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 256,
+    "fields": {
+      "name": "Робуста",
+      "description": "",
+      "price": "197.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.031Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 257,
+    "fields": {
+      "name": "Рождественский пудинг",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.042Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 258,
+    "fields": {
+      "name": "Тирамису",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.055Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 259,
+    "fields": {
+      "name": "Шоколад Вишня",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.067Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 260,
+    "fields": {
+      "name": "Шоколад Марагоджип",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.078Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 261,
+    "fields": {
+      "name": "Шоколадная мята",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.090Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 262,
+    "fields": {
+      "name": "Эфиопия Иргачиф Коке Фармс Органик",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.102Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 263,
+    "fields": {
+      "name": "Ява Мокка",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.124Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 264,
+    "fields": {
+      "name": "Ямайский орех",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.142Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 265,
+    "fields": {
+      "name": "Эфиопия Иргачиф Округлое зерно",
+      "description": "",
+      "price": "638.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.156Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 266,
+    "fields": {
+      "name": "Лесной Орех ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.180Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 267,
+    "fields": {
+      "name": "Венецианская кофейня",
+      "description": "",
+      "price": "957.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.195Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 268,
+    "fields": {
+      "name": "Бразилия Датерра Желтый Бурбон",
+      "description": "",
+      "price": "958.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.206Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 269,
+    "fields": {
+      "name": "Набор капсул для кофемашины Dolce Gusto «Орех Макадамия»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.219Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 270,
+    "fields": {
+      "name": "Набор капсул для кофемашины Dolce Gusto «Амаретто»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.238Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 271,
+    "fields": {
+      "name": "Эспрессо Энерджи",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.250Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 272,
+    "fields": {
+      "name": "Эспрессо Модерн",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.266Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 273,
+    "fields": {
+      "name": "Банановый Сплит",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.277Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 274,
+    "fields": {
+      "name": "Ореховый Брауни",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.290Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 275,
+    "fields": {
+      "name": "Баунти",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.300Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 276,
+    "fields": {
+      "name": "Эспрессо Масалто",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.311Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 277,
+    "fields": {
+      "name": "Эспрессо Сицилиано",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.325Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 278,
+    "fields": {
+      "name": "Эспрессо Даймонд",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.338Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 279,
+    "fields": {
+      "name": "Сникерс",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.352Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 280,
+    "fields": {
+      "name": "Орех макадамия",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.363Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 281,
+    "fields": {
+      "name": "Сальвадор Финка Буэна Виста",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.380Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 282,
+    "fields": {
+      "name": "Кленовый сироп",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.391Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 283,
+    "fields": {
+      "name": "Эфиопия Сидамо",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.405Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 284,
+    "fields": {
+      "name": "Сливочный ликёр",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.416Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 285,
+    "fields": {
+      "name": "Гондурас Финка Монте Кристо",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.428Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 286,
+    "fields": {
+      "name": "Мокка Ван Арабиа ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.447Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 287,
+    "fields": {
+      "name": "Куба Спешал ",
+      "description": "",
+      "price": "697.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.458Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 288,
+    "fields": {
+      "name": "Эфиопия Йергачев округлое зерно ",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.480Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 289,
+    "fields": {
+      "name": "Гватемала Декаф",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.499Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 290,
+    "fields": {
+      "name": "Доминикана",
+      "description": "",
+      "price": "797.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.511Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 291,
+    "fields": {
+      "name": "Доминикана ",
+      "description": "",
+      "price": "638.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.525Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 292,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Орех макадамия»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.537Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 293,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Ирландский крем»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.553Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 294,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Хаус Бленд»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.564Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 295,
+    "fields": {
+      "name": "Шоколад-Вишня ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.576Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 296,
+    "fields": {
+      "name": "Орех макадамия ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.588Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 297,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Мокка ван арабия»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.600Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 298,
+    "fields": {
+      "name": "Банановый сплит ",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.616Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 299,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Колумбия Сан Августин»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.625Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 300,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Кофе для свидания»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.637Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 301,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Амаретто»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.647Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 302,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Марагоджип Никарагуа»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.656Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 303,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Эспрессо Сицилиано»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.665Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 304,
+    "fields": {
+      "name": "Набор капсул для кофемашины Nespresso «Шоколад-Вишня»",
+      "description": "",
+      "price": "547.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.675Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 305,
+    "fields": {
+      "name": "Гран Мариньер",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.689Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 306,
+    "fields": {
+      "name": "Ирландский крем 75 г (зерно)",
+      "description": "",
+      "price": "377.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.701Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 307,
+    "fields": {
+      "name": "Орех макадамия 75 г (зерно)",
+      "description": "",
+      "price": "377.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.710Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 308,
+    "fields": {
+      "name": "Кофе для свидания 75 г (зерно) ",
+      "description": "",
+      "price": "377.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.721Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 309,
+    "fields": {
+      "name": "Хаус Бленд 75 г (зерно)",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.743Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 310,
+    "fields": {
+      "name": "Крем-карамель «Французский шик» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.757Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 311,
+    "fields": {
+      "name": "Шокобар «Полночь в Париже»  ",
+      "description": "",
+      "price": "197.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.767Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 312,
+    "fields": {
+      "name": "Шокобар «Тринитарио Сантадер»",
+      "description": "",
+      "price": "177.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.777Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 313,
+    "fields": {
+      "name": "Шокобар «Нежные облака»",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.786Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 314,
+    "fields": {
+      "name": "Шокобар «Клеопатра»",
+      "description": "",
+      "price": "177.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.797Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 315,
+    "fields": {
+      "name": "Десерт «Марко Поло»",
+      "description": "",
+      "price": "157.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.808Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 316,
+    "fields": {
+      "name": "Конфета корпусная «Сапфир»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.820Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 317,
+    "fields": {
+      "name": "Ассорти «Самоцветы»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.831Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 318,
+    "fields": {
+      "name": "Шоколад фигурный клубничный «Братец кролик»",
+      "description": "",
+      "price": "137.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.841Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 319,
+    "fields": {
+      "name": "Шоколад фигурный молочный «Братец кролик»",
+      "description": "",
+      "price": "137.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.854Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 320,
+    "fields": {
+      "name": "Шоколад фигурный апельсиновый «Братец кролик»",
+      "description": "",
+      "price": "137.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.865Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 321,
+    "fields": {
+      "name": "Конфета «Сердце Версаля»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.877Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 322,
+    "fields": {
+      "name": "Маршмеллоу «Фруктовая румба»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.887Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 323,
+    "fields": {
+      "name": "Мармелад Витаминный коктейль\" \"",
+      "description": "",
+      "price": "197.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.903Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 324,
+    "fields": {
+      "name": "Шокобар с кешью",
+      "description": "",
+      "price": "267.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.922Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 325,
+    "fields": {
+      "name": "Маршмеллоу «Оранжевый закат»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.937Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 326,
+    "fields": {
+      "name": "Нуга «Месье Арахис»",
+      "description": "",
+      "price": "267.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.951Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 327,
+    "fields": {
+      "name": "Ореховая паста «Романтика Парижа»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.967Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 328,
+    "fields": {
+      "name": "Шоколадно-ореховая паста «Римские каникулы»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.977Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 329,
+    "fields": {
+      "name": "Шоколадно-ореховая паста «Утро в Нью-Йорке»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:08.989Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 330,
+    "fields": {
+      "name": "Крем-карамель «Банановый рай»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.001Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 331,
+    "fields": {
+      "name": "Крем-мед «Имбирный медведь»",
+      "description": "",
+      "price": "537.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.012Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 332,
+    "fields": {
+      "name": "Крем-мед «Облепиховый медведь»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.022Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 333,
+    "fields": {
+      "name": "Медиант «Любовь в шоколаде»",
+      "description": "",
+      "price": "187.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.060Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 334,
+    "fields": {
+      "name": "Цукат «Лимон с корицей»",
+      "description": "",
+      "price": "497.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.104Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 335,
+    "fields": {
+      "name": "Шоколад «Апельсиновое настроение»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.129Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 336,
+    "fields": {
+      "name": "Драже «Мадам Черешня»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.146Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 337,
+    "fields": {
+      "name": "Крем-мед «Малиновый медведь»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.169Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 338,
+    "fields": {
+      "name": "Горячий шоколад «Классик»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.186Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 339,
+    "fields": {
+      "name": "Шоколад «Ягодно-фундучный микс» ",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.201Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 340,
+    "fields": {
+      "name": "Крем-карамель «Ванильная груша» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.216Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 341,
+    "fields": {
+      "name": "Шоколад «Гималайские горы» ",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.227Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 342,
+    "fields": {
+      "name": "Мармелад в банке «Вкус глинтвейна»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.239Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 343,
+    "fields": {
+      "name": "Конфета корпусная «Соленая карамель»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.253Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 344,
+    "fields": {
+      "name": "Мед-бальзам «Альпийская легенда»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.264Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 345,
+    "fields": {
+      "name": "Конфета корпусная «Ликер Куантро»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.282Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 346,
+    "fields": {
+      "name": "Мед-бальзам «День»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.292Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 347,
+    "fields": {
+      "name": "Трюфель «Наполеондор»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.309Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 348,
+    "fields": {
+      "name": "Драже «Инжир в шоколаде» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.325Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 349,
+    "fields": {
+      "name": "Маршмеллоу «Розовые облака»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.336Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 350,
+    "fields": {
+      "name": "Крем-карамель «Апельсиновое утро»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.376Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 351,
+    "fields": {
+      "name": "Конфета «Шоколадная мята» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.393Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 352,
+    "fields": {
+      "name": "Варенье «Янтарный берег»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.412Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 353,
+    "fields": {
+      "name": "Мед-бальзам «Золотая ветвь»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.435Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 354,
+    "fields": {
+      "name": "Мед-бальзам «Арома»",
+      "description": "",
+      "price": "691.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.460Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 355,
+    "fields": {
+      "name": "Нуга «Сила Тайги»",
+      "description": "",
+      "price": "287.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.476Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 356,
+    "fields": {
+      "name": "Сироп-бальзам Прана «Зеленый орех»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.494Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 357,
+    "fields": {
+      "name": "Горячий шоколад «Французская карамель»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.506Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 358,
+    "fields": {
+      "name": "Драже «Мускат Голд»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.517Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 359,
+    "fields": {
+      "name": "Трюфель с коньяком «Кальвадос»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.534Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 360,
+    "fields": {
+      "name": "Шоколад «Клубничка»",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.545Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 361,
+    "fields": {
+      "name": "Сахар тростниковый «Классик»",
+      "description": "",
+      "price": "237.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.574Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 362,
+    "fields": {
+      "name": "Марципан «Фрукты Де Люкс»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.609Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 363,
+    "fields": {
+      "name": "Драже «Сильвер соль» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.630Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 364,
+    "fields": {
+      "name": "Драже «Мишкин завтрак»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.644Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 365,
+    "fields": {
+      "name": "Крем-мед «Апельсиновый медведь»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.677Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 366,
+    "fields": {
+      "name": "Мед-бальзам «Горная липа»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.695Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 367,
+    "fields": {
+      "name": "Мед-бальзам «Шамбала»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.706Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 368,
+    "fields": {
+      "name": "Крем-карамель «Пикантный орешек»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.720Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 369,
+    "fields": {
+      "name": "Мед-бальзам «Ночь»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.733Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 370,
+    "fields": {
+      "name": "Шоколад «Миндально-ягодный коктейль» ",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.758Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 371,
+    "fields": {
+      "name": "Варенье «Южное солнце»",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.770Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 372,
+    "fields": {
+      "name": "Мед-бальзам «Женьшень»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.791Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 373,
+    "fields": {
+      "name": "Крем-карамель «Яблочный штрудель»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.801Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 374,
+    "fields": {
+      "name": "Нуга «Сицилийский поцелуй»",
+      "description": "",
+      "price": "287.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.817Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 375,
+    "fields": {
+      "name": "Шоколад «Клеопатра в Китае» ",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.826Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 376,
+    "fields": {
+      "name": "Нуга «Микс Здоровья»",
+      "description": "",
+      "price": "287.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.850Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 377,
+    "fields": {
+      "name": "Трюфель «Трюффальдино»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.879Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 378,
+    "fields": {
+      "name": "Мармелад в банке «Спелый Апельсин»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.893Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 379,
+    "fields": {
+      "name": "Драже «Ореховый дуэт» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.904Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 380,
+    "fields": {
+      "name": "Сироп-бальзам Прана «Харизма»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.921Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 381,
+    "fields": {
+      "name": "Шоколад «Колумбийский микс» ",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.932Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 382,
+    "fields": {
+      "name": "Драже «Карамельный пекан»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.946Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 383,
+    "fields": {
+      "name": "Сахар тростниковый «Лимон»",
+      "description": "",
+      "price": "237.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.955Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 384,
+    "fields": {
+      "name": "Драже «Сказка Востока» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.966Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 385,
+    "fields": {
+      "name": "Мед-бальзам «Прана»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.980Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 386,
+    "fields": {
+      "name": "Трюфель «Белый»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.989Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 387,
+    "fields": {
+      "name": "Мармелад в банке «Сочный цитрус»",
+      "description": "",
+      "price": "787.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:09.998Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 388,
+    "fields": {
+      "name": "Сахар тростниковый «Клубника»",
+      "description": "",
+      "price": "237.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.007Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 389,
+    "fields": {
+      "name": "Трюфель «Грана» ",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.016Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 390,
+    "fields": {
+      "name": "Нуга с обсыпкой «Аравия»",
+      "description": "",
+      "price": "287.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.030Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 391,
+    "fields": {
+      "name": "Мед-бальзам «Можжевельник»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.049Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 392,
+    "fields": {
+      "name": "Горячий шоколад «Ирландский крем»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.058Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 393,
+    "fields": {
+      "name": "Шоколад «Карамельная жемчужина» ",
+      "description": "",
+      "price": "357.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.096Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 394,
+    "fields": {
+      "name": "Апельсиновые дольки в темном шоколаде",
+      "description": "",
+      "price": "447.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.117Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 395,
+    "fields": {
+      "name": "Шоколад «Колумбиана»",
+      "description": "",
+      "price": "267.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.138Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 396,
+    "fields": {
+      "name": "Мед-бальзам «Ягодная сказка»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.156Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 397,
+    "fields": {
+      "name": "Трюфель «Мадам Бовари»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.165Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 398,
+    "fields": {
+      "name": "Райская птичка в молочном шоколаде с маракуйей",
+      "description": "",
+      "price": "197.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.176Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 399,
+    "fields": {
+      "name": "Крем-карамель «Классика жанра»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.186Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 400,
+    "fields": {
+      "name": "Шоколадная фигура «Кошечка»",
+      "description": "",
+      "price": "187.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.196Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 401,
+    "fields": {
+      "name": "Сахар тростниковый «Мятный»",
+      "description": "",
+      "price": "237.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.206Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 402,
+    "fields": {
+      "name": "Трюфель «Малиновка»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.215Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 403,
+    "fields": {
+      "name": "Крем-карамель «Шоколадный берег»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.224Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 404,
+    "fields": {
+      "name": "Конфета Ассорти «Признание»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.239Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 405,
+    "fields": {
+      "name": "Мед-бальзам «Золотой корень»",
+      "description": "",
+      "price": "767.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.255Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 406,
+    "fields": {
+      "name": "Трюфель «Мангустин»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.302Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 407,
+    "fields": {
+      "name": "Нуга «Вишневый сад»",
+      "description": "",
+      "price": "287.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.314Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 408,
+    "fields": {
+      "name": "Конфеты «Сладкие фрукты»",
+      "description": "",
+      "price": "487.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.325Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 409,
+    "fields": {
+      "name": "Шоколад «Таежный сбор»",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.339Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 410,
+    "fields": {
+      "name": "Сироп-бальзам Прана «Легенда»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.355Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 411,
+    "fields": {
+      "name": "Мармелад в банке «Ароматный мандарин»",
+      "description": "",
+      "price": "597.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.367Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 412,
+    "fields": {
+      "name": "Мармелад «Фруктовый микс»",
+      "description": "",
+      "price": "197.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.380Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 413,
+    "fields": {
+      "name": "Ассорти «Три марципана»",
+      "description": "",
+      "price": "287.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.395Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 414,
+    "fields": {
+      "name": "Варенье из белой черешни ",
+      "description": "",
+      "price": "297.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.409Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 415,
+    "fields": {
+      "name": "Варенье из грецких орехов ",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.421Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 416,
+    "fields": {
+      "name": "Горячий шоколад «Малиновое суфле»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.433Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 417,
+    "fields": {
+      "name": "Горячий шоколад  «Фундук в шоколаде»",
+      "description": "",
+      "price": "397.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.446Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 418,
+    "fields": {
+      "name": "Драже «Coffee time»",
+      "description": "",
+      "price": "587.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.459Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 419,
+    "fields": {
+      "name": "Шокобар «Белые ночи»",
+      "description": "",
+      "price": "177.00",
+      "discount": 0,
+      "created_at": "2023-03-06T11:10:10.472Z",
+      "archived": false,
+      "created_by": 1
+    }
+  }
+]

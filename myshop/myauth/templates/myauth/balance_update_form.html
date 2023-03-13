@@ -1,0 +1,18 @@
+{%  extends "myauth/base.html" %}
+{% load i18n %}
+{%  block title %}
+ {% trans 'Up balance' %}
+{% endblock %}
+
+{%  block body %}
+    <h1> {% trans 'Form for adding funds to the balance' %}</h1>
+    <form method="post">
+      {%  csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">{% trans 'Top up your balance' %}</button>
+    </form>
+    <div>
+        <a href="{% url 'myauth:personal_account' username=request.user.username %}">{% trans 'Return to profile' %}</a>
+    </div>
+
+{% endblock %}

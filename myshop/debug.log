@@ -1,0 +1,1379 @@
+2023-03-06 13:19:40.031118: Bobs replenished the balance by 4
+2023-03-06 13:27:08.464020: Bobs has placed an order # 14
+2023-03-06 13:27:08.464020: 157.00 points have been deducted from the Bobs account
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+2023-03-09 16:01:36.347242: Bobs log in
+2023-03-09 16:01:59.432221: Bobs replenished the balance by 67
+Internal Server Error: /shop/basket/Bobs/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 60, in post
+    discount_coefficient = check_sale(request, request.POST['promocode'])
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py", line 34, in check_sale
+    stock = Stocks.objects.get(code=code)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 650, in get
+    raise self.model.DoesNotExist(
+shopapp.models.Stocks.DoesNotExist: Stocks matching query does not exist.
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/basket/Bobs/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 59, in post
+    discount_coefficient = check_sale(request, request.POST['promocode'])
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py", line 35, in check_sale
+    stock = Stocks.objects.get(code=code)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 650, in get
+    raise self.model.DoesNotExist(
+shopapp.models.Stocks.DoesNotExist: Stocks matching query does not exist.
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+2023-03-09 16:07:32.050145: Bobs has placed an order # 15
+2023-03-09 16:07:32.050145: 95.0000 points have been deducted from the Bobs account
+2023-03-09 16:07:41.899714: Bobs replenished the balance by 95
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+2023-03-09 16:08:27.907801: Bobs has placed an order # 16
+2023-03-09 16:08:27.907801: 95.0000 points have been deducted from the Bobs account
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/basket/Bobs/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 59, in post
+    discount_coefficient = check_sale(request, request.POST['promocode'])
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py", line 37, in check_sale
+    print(stock.name_of_func_to_check)
+AttributeError: 'NoneType' object has no attribute 'name_of_func_to_check'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /shop/
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/basket/Bobs/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 59, in post
+    discount_coefficient = check_sale(request, request.POST['promocode'])
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py", line 38, in check_sale
+    str_if_func[stock.name_of_func_to_check](request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py", line 28, in check_for_the_first_purchase
+    raise NotFirstPurchase
+shopapp.tools.check_sale.NotFirstPurchase: This promo code is valid only for the first order
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/basket/Bobs/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 59, in post
+    discount_coefficient = check_sale(request, request.POST['promocode'])
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py", line 40, in check_sale
+    str_if_func[stock.name_of_func_to_check](request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py", line 28, in check_for_the_first_purchase
+    raise NotFirstPurchase
+shopapp.tools.check_sale.NotFirstPurchase: This promo code is valid only for the first order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 112, in post
+    except NotFirstPurchase as nfp:
+NameError: name 'NotFirstPurchase' is not defined
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+2023-03-09 17:04:42.474573: Pop replenished the balance by 500
+Internal Server Error: /shop/basket/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'promocode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 58, in post
+    if request.POST['promocode']:
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'promocode'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+2023-03-09 17:06:00.379128: Pop has placed an order # 17
+2023-03-09 17:06:00.379128: 357.3000 points have been deducted from the Pop account
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /shop/
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py", line 35, in get_context_data
+    .annotate(new_price='price' * 0.01 * (100 - 'discount'))}
+TypeError: can't multiply sequence by non-int of type 'float'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 320, in render
+    if match:
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 408, in __bool__
+    self._fetch_all()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 305, in get_select
+    sql, params = col.select_format(self, sql, params)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 456, in select_format
+    if hasattr(self.output_field, "select_format"):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 295, in output_field
+    output_field = self._resolve_output_field()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 652, in _resolve_output_field
+    type(self.lhs._output_field_or_none),
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 308, in _output_field_or_none
+    return self.output_field
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 295, in output_field
+    output_field = self._resolve_output_field()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 656, in _resolve_output_field
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot infer type of '*' expression involving these types: DecimalField, FloatField. You must set output_field.
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py", line 35, in get_context_data
+    "offers": Product.objects.only('name', 'price', 'discount').filter(discount__gt=0)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1575, in annotate
+    return self._annotate(args, kwargs, select=True)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1585, in _annotate
+    self._validate_values_are_expressions(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1936, in _validate_values_are_expressions
+    raise TypeError(
+TypeError: QuerySet.annotate() received non-expression(s): <django.db.models.fields.FloatField>.
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py", line 35, in get_context_data
+    "offers": Product.objects.only('name', 'price', 'discount').filter(discount__gt=0)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1575, in annotate
+    return self._annotate(args, kwargs, select=True)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1585, in _annotate
+    self._validate_values_are_expressions(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1936, in _validate_values_are_expressions
+    raise TypeError(
+TypeError: QuerySet.annotate() received non-expression(s): <django.db.models.fields.DecimalField>.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 320, in render
+    if match:
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 408, in __bool__
+    self._fetch_all()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 305, in get_select
+    sql, params = col.select_format(self, sql, params)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 456, in select_format
+    if hasattr(self.output_field, "select_format"):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 295, in output_field
+    output_field = self._resolve_output_field()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 652, in _resolve_output_field
+    type(self.lhs._output_field_or_none),
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 308, in _output_field_or_none
+    return self.output_field
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 295, in output_field
+    output_field = self._resolve_output_field()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/expressions.py", line 656, in _resolve_output_field
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot infer type of '*' expression involving these types: DecimalField, FloatField. You must set output_field.
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/options.py", line 669, in get_field
+    return self.fields_map[field_name]
+KeyError: 'new_price'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 320, in render
+    if match:
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 408, in __bool__
+    self._fetch_all()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 257, in get_select
+    cols = self.get_default_columns()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 818, in get_default_columns
+    only_load = self.deferred_to_columns()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1316, in deferred_to_columns
+    self.query.deferred_to_data(columns)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 758, in deferred_to_data
+    field = opts.get_field(parts[-1])
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/db/models/options.py", line 671, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Product has no field named 'new_price'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py", line 37, in get_context_data
+    print(new_kwargs['offers'].value_list())
+AttributeError: 'QuerySet' object has no attribute 'value_list'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'shopapp/base.html'> must be the first tag in the template.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/tools/check_sale.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: PersonalAccountView.post() got an unexpected keyword argument 'username'
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: PersonalAccountView.post() got an unexpected keyword argument 'username'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 97, in view
+    self.setup(request, *args, **kwargs)
+TypeError: PersonalAccountView.setup() got an unexpected keyword argument 'username'
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 97, in view
+    self.setup(request, *args, **kwargs)
+TypeError: PersonalAccountView.setup() got an unexpected keyword argument 'username'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 135, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py", line 38, in get_context_data
+    print(Order.objects.filter(user=User.objects.get(username=kwargs["username"])))
+KeyError: 'username'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
+Internal Server Error: /accounts/Pop/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
+2023-03-11 10:42:33.863201: Pop replenished the balance by 1000
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+2023-03-11 10:43:53.925256: Pop has placed an order # 18
+2023-03-11 10:43:53.925256: 297.00 points have been deducted from the Pop account
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myshop/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/myauth/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+2023-03-11 22:49:38.111537: admin log in
+Internal Server Error: /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Forbidden (Permission denied): /shop/products/create/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Not Found: /shop/products/1/
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 155, in post
+    print(request.QUERY_STRING)
+AttributeError: 'WSGIRequest' object has no attribute 'QUERY_STRING'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 158, in post
+    return redirect(request.path + request.Q)
+AttributeError: 'WSGIRequest' object has no attribute 'Q'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 155, in post
+    print(request.META.QUERY_STRING)
+AttributeError: 'dict' object has no attribute 'QUERY_STRING'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 155, in post
+    print(request.META.QUERY_STRING)
+AttributeError: 'dict' object has no attribute 'QUERY_STRING'
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 155, in post
+    print(request.META.QUERY_STRING)
+AttributeError: 'dict' object has no attribute 'QUERY_STRING'
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 155, in post
+    print(request.META.QUERY_STRING)
+AttributeError: 'dict' object has no attribute 'QUERY_STRING'
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 155, in post
+    print(request.META.QUERY_STRING)
+AttributeError: 'dict' object has no attribute 'QUERY_STRING'
+Watching for file changes with StatReloader
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /shop/products/
+Traceback (most recent call last):
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py", line 155, in post
+    return redirect(request.get_full_path)  #+ f'?{request.META.QUERY_STRING}'
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'django.http.request.get_full_path' not found. 'django.http.request.get_full_path' is not a valid view function or pattern name.
+/home/mikhail/Desktop/dpo_python_django/M_15_DataBase/myshop/shopapp/views.py changed, reloading.
+Watching for file changes with StatReloader

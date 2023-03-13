@@ -1,0 +1,64 @@
+{% extends 'shopapp/base.html' %}
+{% load i18n %}
+{% block title %}
+  {% trans 'Basket' %}
+{% endblock %}
+
+{% block body %}
+  {% if user.is_authenticated %}
+
+
+  <h1>{% trans 'Products in shopping cart' %}:</h1>
+  {% if sc.products.all %}
+
+    <div>
+    {% for product in sc.products.all %}
+
+      <div>
+        <p><a href="{% url 'shopapp:product_details' pk=product.pk %}"
+        >{% trans 'Name' %}: {{ product.name }}</a>
+        </p>
+        <p>{% trans 'Price' %}: {{ product.price }}</p>
+
+      </div>
+
+      <div>
+      <form method="post">
+          {% csrf_token %}
+          <input type="hidden" name="delete_pr" value={{ product.pk  }}>
+          <button type="submit">{% trans 'Delete product from shopping cart' %}</button>
+      </form>
+    </div>
+
+
+
+
+   {% endfor %}
+
+
+    <div>
+      <form method="post">
+          {% csrf_token %}
+          {{ form1.as_p }}
+          <input type="hidden" name="order_st" value=True>
+          <button type="submit">{% trans 'Place an order' %}</button>
+      </form>
+    </div>
+    <h1 style="color: red">
+
+    {% if error %}
+        {{ error }}
+    {%  endif %}
+    </h1>
+
+
+  {% else %}
+    <h3>{% trans 'No products yet' context 'basket'%}</h3>
+  {% endif %}
+
+  <div>
+    <a href="{% url 'shopapp:products_list' %}"
+    >{% trans 'Back to products list' %}</a>
+  </div>
+  {%  endif %}
+{% endblock %}

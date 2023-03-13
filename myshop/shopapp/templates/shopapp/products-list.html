@@ -1,0 +1,79 @@
+
+{% extends 'shopapp/base.html' %}
+{% load i18n %}
+{% block title %}
+  {% trans 'Products list' %}
+{% endblock %}
+
+{% block body %}
+  {% if user.is_authenticated %}
+  <div>
+    <a href="{% url 'shopapp:basket_details' username=request.user.username %}"
+      >{% trans 'Go to my shipping cart' %}</a>
+  </div>
+  {%  endif %}
+  {% if user.is_authenticated %}
+  <div>
+    <a href="{% url 'myauth:personal_account' username=request.user.username %}"
+      >{% trans 'View my profile' %}</a>
+  </div>
+  {%  endif %}
+  <div>
+    <a href="{% url 'shopapp:popular_products' %}"
+      >{% trans 'The most purchased products list' %}</a>
+  </div>
+
+  <div></div>
+  <h1>{% trans 'Products:' %}</h1>
+  {% if products %}
+    <div>
+    {% for product in products %}
+          <div>
+            <p><a href="{% url 'shopapp:product_details' pk=product.pk %}"
+            >{% trans 'Name' %}: {{ product.name }}</a> {% trans 'in shop' %} :
+                {% for shop in product.shops.all %}
+                "{{ shop.name }}"
+                {% endfor %}
+            </p>
+            <p>{% trans 'Price:' %} {{ product.price }}</p>
+            <p>{% trans 'Discount:' %} {% firstof product.discount 'no discount' %}</p>
+          </div>
+        {% if request.user.is_authenticated %}
+        <div>
+        <form method="post">
+          {% csrf_token %}
+          <input type="hidden" name="pk" value={{ product.pk }}>
+          <button type="submit">{% trans 'Add in Basket' %}</button>
+        </form>
+        </div>
+        {%  endif %}
+    {% endfor %}
+    </div>
+    <div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+    </div>
+  {% else %}
+    <h3>{% trans 'No products yet' context 'products_list'%}</h3>
+  {% endif %}
+
+  {% if user.is_authenticated and perms.shopapp.add_product %}
+  <div>
+    <a href="{% url 'shopapp:product_create' %}"
+      >{% trans 'Create a new product' %}</a>
+  </div>
+  {%  endif %}
+{% endblock %}

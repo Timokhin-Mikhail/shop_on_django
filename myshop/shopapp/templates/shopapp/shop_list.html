@@ -1,0 +1,33 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+ {% trans 'Stores' %}
+{% endblock %}
+
+{% block body %}
+  {% if user.is_authenticated %}
+  <div>
+    <a href="{% url 'shopapp:basket_details' username=request.user.username %}"
+      >{% trans 'Go to my shipping cart' %}</a>
+  </div>
+  {%  endif %}
+
+
+  <div></div>
+  <h1>{% trans 'The shops:' %}</h1>
+  {% if object_list %}
+    <div>
+    {% for shop in object_list %}
+          <div>
+            <p>{% trans 'Name:' context 'shop' %} {{ shop.name }}</p>
+            <p>{% trans 'Description' %}: {{ shop.description }}</p>
+          </div>
+    {% endfor %}
+    </div>
+  {% else %}
+    <h3>{% trans 'No shops yet' %}</h3>
+  {% endif %}
+  <div>
+    <a href="{% url 'shopapp:products_list' %}">{% trans 'Go to products list' %}</a>
+  </div>
+{% endblock %}

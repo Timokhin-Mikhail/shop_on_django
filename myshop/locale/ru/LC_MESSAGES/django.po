@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-11 08:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: myauth/templates/myauth/balance_update_form.html:4
+msgid "Up balance"
+msgstr "Пополнение баланса"
+
+#: myauth/templates/myauth/balance_update_form.html:8
+msgid "Form for adding funds to the balance"
+msgstr "Форма для пополнения баланса"
+
+#: myauth/templates/myauth/balance_update_form.html:12
+#: myauth/templates/myauth/personal_account.html:30
+msgid "Top up your balance"
+msgstr "Пополнить баланс"
+
+#: myauth/templates/myauth/balance_update_form.html:15
+msgid "Return to profile"
+msgstr "Вернутся в профиль"
+
+#: myauth/templates/myauth/login.html:4 myauth/templates/myauth/login.html:11
+msgid "Login"
+msgstr "Вход"
+
+#: myauth/templates/myauth/login.html:14
+msgid "Register new user"
+msgstr "Регистрация нового пользователя"
+
+#: myauth/templates/myauth/personal_account.html:4
+msgid "Personal account "
+msgstr "Профиль"
+
+#: myauth/templates/myauth/personal_account.html:16
+msgid "Detail"
+msgstr "Описаник"
+
+#: myauth/templates/myauth/personal_account.html:17
+msgid "Username:"
+msgstr "Никнейм"
+
+#: myauth/templates/myauth/personal_account.html:18
+msgid "First name:"
+msgstr "Имя"
+
+#: myauth/templates/myauth/personal_account.html:22
+msgid "First name not installed"
+msgstr "Имя не установлено"
+
+#: myauth/templates/myauth/personal_account.html:25
+msgid "Status"
+msgstr "Статус в програме лояльности"
+
+#: myauth/templates/myauth/personal_account.html:26
+msgid "Balance"
+msgstr "Баланс счета"
+
+#: myauth/templates/myauth/personal_account.html:27
+msgid "Purchase amount"
+msgstr "Сумма совершенных покупок"
+
+#: myauth/templates/myauth/personal_account.html:34
+#: shopapp/templates/shopapp/shop_list.html:31
+msgid "Go to products list"
+msgstr "Перейти к списку продуктов"
+
+#: myauth/templates/myauth/personal_account.html:37
+msgid "Promotions"
+msgstr "Акции"
+
+#: myauth/templates/myauth/personal_account.html:44
+msgid "Offers"
+msgstr "Предложения"
+
+#: myauth/templates/myauth/personal_account.html:51
+#: shopapp/templates/shopapp/products-list.html:48
+msgid "Add in Basket"
+msgstr "Додавить в корзину"
+
+#: myauth/templates/myauth/register.html:4
+#: myauth/templates/myauth/register.html:8
+msgid "Register"
+msgstr "Регистрация"
+
+#: shopapp/templates/shopapp/product_confirm_delete.html:4
+msgid "Confirm archive"
+msgstr "Архивация товара"
+
+#: shopapp/templates/shopapp/product_confirm_delete.html:8
+msgid "Are you sure you want to archive"
+msgstr "Вы уверены что хотите архивировать"
+
+#: shopapp/templates/shopapp/product_confirm_delete.html:12
+#: shopapp/templates/shopapp/product_update_form.html:18
+msgid "Back to product"
+msgstr "Вернуться к товару"
+
+#: shopapp/templates/shopapp/product_confirm_delete.html:19
+msgid "Archive"
+msgstr "Архивировать"
+
+#: shopapp/templates/shopapp/product_form.html:4
+#: shopapp/templates/shopapp/product_form.html:8
+msgid "Create product"
+msgstr "Создать товар"
+
+#: shopapp/templates/shopapp/product_form.html:13
+msgid "Create"
+msgstr "Создать"
+
+#: shopapp/templates/shopapp/product_form.html:18
+#: shopapp/templates/shopapp/shopping_cart_detail.html:61
+#: shopapp/templates/shopapp/the_most_purchased_products_list.html:40
+msgid "Back to products list"
+msgstr "Вернуться к списку продуктов"
+
+#: shopapp/templates/shopapp/product_update_form.html:4
+#: shopapp/templates/shopapp/product_update_form.html:8
+msgid "Update product"
+msgstr "Обновить информацию о товаре"
+
+#: shopapp/templates/shopapp/product_update_form.html:13
+msgid "Update"
+msgstr "Обновить"
+
+#: shopapp/templates/shopapp/products-list.html:5
+msgid "Products list"
+msgstr "Продукты"
+
+#: shopapp/templates/shopapp/products-list.html:12
+#: shopapp/templates/shopapp/shop_list.html:11
+msgid "Go to my shipping cart"
+msgstr "Перейти в корзину"
+
+#: shopapp/templates/shopapp/products-list.html:18
+msgid "View my profile"
+msgstr "Мой профиль"
+
+#: shopapp/templates/shopapp/products-list.html:23
+msgid "The most purchased products list"
+msgstr "Самые продаваемые товары"
+
+#: shopapp/templates/shopapp/products-list.html:27
+msgid "Products:"
+msgstr "Продукты:"
+
+#: shopapp/templates/shopapp/products-list.html:35
+#: shopapp/templates/shopapp/shopping_cart_detail.html:19
+#: shopapp/templates/shopapp/the_most_purchased_products_list.html:14
+msgid "Name"
+msgstr "Название"
+
+#: shopapp/templates/shopapp/products-list.html:35
+msgid "in shop"
+msgstr "в магазинах"
+
+#: shopapp/templates/shopapp/products-list.html:40
+msgid "Price:"
+msgstr "Цена:"
+
+#: shopapp/templates/shopapp/products-list.html:41
+msgid "Discount:"
+msgstr "Скидка:"
+
+#: shopapp/templates/shopapp/products-list.html:58
+msgctxt "products_list"
+msgid "No products yet"
+msgstr "Нет продаваемых продуктов"
+
+#: shopapp/templates/shopapp/products-list.html:63
+msgid "Create a new product"
+msgstr "Создать новый продукт"
+
+#: shopapp/templates/shopapp/shop_list.html:4
+msgid "Stores"
+msgstr "Магазины"
+
+#: shopapp/templates/shopapp/shop_list.html:17
+msgid "The shops:"
+msgstr "Список магазинов"
+
+#: shopapp/templates/shopapp/shop_list.html:22
+msgctxt "shop"
+msgid "Name:"
+msgstr "Название"
+
+#: shopapp/templates/shopapp/shop_list.html:23
+msgid "Description"
+msgstr "Описание"
+
+#: shopapp/templates/shopapp/shop_list.html:28
+msgid "No shops yet"
+msgstr "Магазины отсутствуют"
+
+#: shopapp/templates/shopapp/shopping_cart_detail.html:4
+msgid "Basket"
+msgstr "Корзина"
+
+#: shopapp/templates/shopapp/shopping_cart_detail.html:11
+msgid "Products in shopping cart"
+msgstr "Продукты в Вашей корзине"
+
+#: shopapp/templates/shopapp/shopping_cart_detail.html:21
+msgid "Price"
+msgstr "Цена"
+
+#: shopapp/templates/shopapp/shopping_cart_detail.html:29
+msgid "Delete product from shopping cart"
+msgstr "Удалить из корзины"
+
+#: shopapp/templates/shopapp/shopping_cart_detail.html:44
+msgid "Place an order"
+msgstr "Оформить заказ"
+
+#: shopapp/templates/shopapp/shopping_cart_detail.html:56
+msgctxt "basket"
+msgid "No products yet"
+msgstr "В корзине нет продуктов"
+
+#: shopapp/templates/shopapp/the_most_purchased_products_list.html:4
+msgid "Popular products"
+msgstr "Нет проданных товаров"
+
+#: shopapp/templates/shopapp/the_most_purchased_products_list.html:8
+msgid "The most popular products:"
+msgstr "Список самых продаваемых товаров"
+
+#: shopapp/templates/shopapp/the_most_purchased_products_list.html:13
+msgid "Prodict id"
+msgstr "Артикул родукта"
+
+#: shopapp/templates/shopapp/the_most_purchased_products_list.html:15
+msgid "Number of purchased items"
+msgstr "Количество покупок"
+
+#: shopapp/templates/shopapp/the_most_purchased_products_list.html:35
+msgid "The products have not been sold yet"
+msgstr "Продукты не продавались"
+
+#: shopapp/templates/shopapp/upload_products_file.html:4
+msgid "Upload products"
+msgstr "Обновить список товаров"
+
+#: shopapp/templates/shopapp/upload_products_file.html:12
+msgid "Upload file with products"
+msgstr "Загрузить файл со списком товаров"
+
+#: shopapp/tools/check_sale.py:8
+msgid "This promo code is valid only for the first order"
+msgstr "Данные промокод действителен только на первый заказ"
+
+#: shopapp/views.py:117
+msgid "You havn't money"
+msgstr "Недостаточно средств на балансе"
+
+#: shopapp/views.py:123
+msgid "Promocode \"{}\" not found"
+msgstr "Промокод \"{}\" не найден"

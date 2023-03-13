@@ -1,0 +1,15 @@
+{% extends 'shopapp/base.html' %}
+{% load i18n %}
+{% block title %}
+  {% trans 'Upload products' %}
+{% endblock %}
+
+{% block body %}
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+
+      <button type="submit">{% trans 'Upload file with products' %}</button>
+    </form>
+
+{% endblock %}
